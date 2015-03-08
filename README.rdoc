@@ -1,7 +1,6 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+顧客管理システム「大福帳」
 
 Things you may want to cover:
 
