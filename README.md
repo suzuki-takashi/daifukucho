@@ -17,7 +17,7 @@ rubyやリモート環境での開発に不慣れなので、いろいろ試行�
     rails 4.2.0
 
 ### コミュニケーション ###
-1. [Issueはこちらからお願いします](https://github.com/suzuki-takashi/daifukucho/issues/new?labels=bug&title=%5B%E4%BE%9D%E9%A0%BC%5D&body=%23%20%E5%95%8F%E9%A1%8C%E3%81%AE%E8%83%8C%E6%99%AF%0A%0A%23%20%E4%BD%95%E3%81%8C%E5%95%8F%E9%A1%8C%E3%81%AA%E3%81%AE%E3%81%8B%0A%0A%23%20%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%EF%BC%88%E3%81%82%E3%82%8C%E3%81%B0%EF%BC%89&assignee=suzuki-takashi)
+1. [Issueや不具合の報告はこちらからお願いします](https://github.com/suzuki-takashi/daifukucho/issues/new?labels=bug&title=%5B%E4%BE%9D%E9%A0%BC%5D&body=%23%20%E5%95%8F%E9%A1%8C%E3%81%AE%E8%83%8C%E6%99%AF%0A%0A%23%20%E4%BD%95%E3%81%8C%E5%95%8F%E9%A1%8C%E3%81%AA%E3%81%AE%E3%81%8B%0A%0A%23%20%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%EF%BC%88%E3%81%82%E3%82%8C%E3%81%B0%EF%BC%89&assignee=suzuki-takashi)
 2. [機能改善提案や要望はこちらからお願いします](https://github.com/suzuki-takashi/daifukucho/issues/new?labels=idea&title=%5BIdea%5D&body=%23%20%E5%86%85%E5%AE%B9%0A%0A%23%20%E7%9B%AE%E7%9A%84%0A%0A%23%20%E5%AE%9F%E8%A3%85%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8&assignee=suzuki-takashi)
 
 
