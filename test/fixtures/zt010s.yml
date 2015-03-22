@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  IDVARIANT: MyString
+  TXNAME: MyString
+  TXTYPE: MyString
+  TXVALUE: MyString
+  TXREMARKS: MyString
+
+two:
+  IDVARIANT: MyString
+  TXNAME: MyString
+  TXTYPE: MyString
+  TXVALUE: MyString
+  TXREMARKS: MyString

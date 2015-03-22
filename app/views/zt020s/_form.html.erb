@@ -1,0 +1,29 @@
+<%= form_for(@zt020) do |f| %>
+  <% if @zt020.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@zt020.errors.count, "error") %> prohibited this zt020 from being saved:</h2>
+
+      <ul>
+      <% @zt020.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :IDUSER %><br>
+    <%= f.text_field :IDUSER %>
+  </div>
+  <div class="field">
+    <%= f.label :TXNAME %><br>
+    <%= f.text_field :TXNAME %>
+  </div>
+  <div class="field">
+    <%= f.label :TXPASSWORD %><br>
+    <%= f.text_field :TXPASSWORD %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
