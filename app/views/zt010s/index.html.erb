@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Zt010s</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Idvariant</th>
+      <th>Txname</th>
+      <th>Txtype</th>
+      <th>Txvalue</th>
+      <th>Txremarks</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @zt010s.each do |zt010| %>
+      <tr>
+        <td><%= zt010.IDVARIANT %></td>
+        <td><%= zt010.TXNAME %></td>
+        <td><%= zt010.TXTYPE %></td>
+        <td><%= zt010.TXVALUE %></td>
+        <td><%= zt010.TXREMARKS %></td>
+        <td><%= link_to 'Show', zt010 %></td>
+        <td><%= link_to 'Edit', edit_zt010_path(zt010) %></td>
+        <td><%= link_to 'Destroy', zt010, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Zt010', new_zt010_path %>

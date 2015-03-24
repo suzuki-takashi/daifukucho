@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Zt020s</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Iduser</th>
+      <th>Txname</th>
+      <th>Txpassword</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @zt020s.each do |zt020| %>
+      <tr>
+        <td><%= zt020.IDUSER %></td>
+        <td><%= zt020.TXNAME %></td>
+        <td><%= zt020.TXPASSWORD %></td>
+        <td><%= link_to 'Show', zt020 %></td>
+        <td><%= link_to 'Edit', edit_zt020_path(zt020) %></td>
+        <td><%= link_to 'Destroy', zt020, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Zt020', new_zt020_path %>
