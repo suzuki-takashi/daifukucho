@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>DAIFUKUCHO</title>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css"/>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:700"/>
+  <link rel="stylesheet" href="css/dai.shell.css"/>
+  <link rel="stylesheet" href="css/dai.login.css"/>
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
+  <script src="script/dai.js" type="text/javascript"></script>
+  <script src="script/dai.shell.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(function () { dai.initModule($("#dai")); });
+  </script>
+
+</head>
+<body>
+
+<div id="dai">
+  <div class="dai-head">
+    <div class="dai-head-logo">DAIFUKUCHO</div>
+    <button type="button" class="dai-head-button dai-head-button_message" id="dai-head-button_message"><i
+            class="fa fa-comment"></i></button>
+    <button type="button" class="dai-head-button dai-head-button_menu" id="dai-head-button_menu"><i
+            class="fa fa-bars"></i></button>
+  </div>
+
+  <div class="dai-main">
+    <div class="dai-main-content">
+      ログインしました。 <br>
+      右上にメニュー、メッセージを表示するボタンが表示されます。
+    </div>
+  </div>
+
+  <div class="dai-menu">
+    <div class="dai-shell-title dai-menu-title">
+      <h1><i class="fa fa-bars"></i>メニュー</h1>
+    </div>
+
+    <div class="dai-shell-body dai-menu-body">
+      <h1>業務</h1>
+      <ul>
+        <li><a href="#"><i class="fa fa-caret-right"></i>売上</a></li>
+        <li><a href="#"><i class="fa fa-caret-right"></i>仕入</a></li>
+        <li><a href="#"><i class="fa fa-caret-right"></i>受注</a></li>
+        <li><a href="#"><i class="fa fa-caret-right"></i>発注</a></li>
+      </ul>
+
+      <h1>マスタ</h1>
+      <ul>
+        <li><a href="#"><i class="fa fa-caret-right"></i>顧客</a></li>
+        <li><a href="#"><i class="fa fa-caret-right"></i>商品</a></li>
+      </ul>
+
+      <h1>システム</h1>
+      <ul>
+        <li><a href="#"><i class="fa fa-caret-right"></i>ユーザー管理</a></li>
+        <li><a href="#"><i class="fa fa-caret-right"></i>権限管理</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="dai-message">
+    <div class="dai-shell-title dai-message-title">
+      <h1><i class="fa fa-comment"></i>メッセージ</h1>
+    </div>
+    <div class="dai-shell-body dai-message-body">
+      <ul>
+        <li><i class="fa fa-exclamation-triangle"></i>Error-001 顧客コードは必須入力です。</li>
+        <li><i class="fa fa-exclamation-circle"></i>Error-002 顧客コードは必須入力です。</li>
+        <li><i class="fa fa-exclamation-triangle"></i>Error-003 顧客コードは必須入力です。</li>
+        <li><i class="fa fa-exclamation-triangle"></i>Error-004 顧客コードは必須入力です。</li>
+        <li><i class="fa fa-exclamation-triangle"></i>Error-005 顧客コードは必須入力です。</li>
+        <li><i class="fa fa-exclamation-triangle"></i>Error-006 顧客コードは必須入力です。</li>
+        <li><i class="fa fa-exclamation-triangle"></i>Error-007 顧客コードは必須入力です。</li>
+        <li><i class="fa fa-exclamation-triangle"></i>Error-008 顧客コードは必須入力です。</li>
+        <li><i class="fa fa-exclamation-triangle"></i>Error-009 顧客コードは必須入力です。</li>
+        <li><i class="fa fa-exclamation-triangle"></i>Error-010 顧客コードは必須入力です。</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
